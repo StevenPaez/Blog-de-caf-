@@ -32,7 +32,7 @@ formulario.addEventListener('submit', function (e) { // SUBMIT
 
 // Leer texto
 function leerTexto(e) {
-    datos[e.target.id] = e.target.id;
+    datos[e.target.id] = e.target.value;
 }
 
 // ALERTA
